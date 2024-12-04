@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #178de6, #4294b7, #2c5485, #ee9cd7, #059be6);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: white
+}
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+header {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.about, .education ,.skill .portfolio, .contact {
+    margin-bottom: 40px;
+}
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.5s ease;
+}
+
+
+.portfolio {
+     text-align: center;
+     padding: 20px;
+}
+
+.portfolio-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+justify-items: center;
+align-items: center;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.animated-image {
+width: 100%;
+max-width: 250px;
+height: auto;
+border-radius: 8px;
+transition: transform 0.3s ease;
+}
+
+.animated-image:hover {
+transform: scale(1.1);
+}
+
+.about img:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.hobby {
+    text-align: center;
+}
+
+.hobby img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+}
+
+.hobby p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.animated-image:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+footer {
+    background: rgba(0,0,0,0.6);
+    color: rgb(243, 241, 241);
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+    
+    .hobbies {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .hobby {
+        text-align: center;
+    }
+    .hobby img {
+        width: 120px;
+        height: 120px;
+        border-radius: 10%;
+        transition: transform 0.3s ease;
+    }
+    .hobby p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .animated-image:hover {
+        transform: scale(1.1) rotate(5deg);
+    }
+    footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ff6347; /* Change hover color */
+}
+
+    
